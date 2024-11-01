@@ -68,7 +68,7 @@ struct ContentView: View {
                                 }, label: {
                                     Image(systemName: "xmark").foregroundStyle(.black)
                                         .frame(width: 40, height: 40)
-                                        .background(.white, in: Circle())
+                                        .background(.red, in: Circle())
                                 })
                             }
                             TextEditor(text: $details)
